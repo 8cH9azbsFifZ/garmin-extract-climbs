@@ -1,0 +1,1 @@
+# garmin-extract-climbs
