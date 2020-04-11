@@ -1,0 +1,2 @@
+#* * * * * cd /usr/src/app && /bin/bash /usr/src/app/extract_climbs.sh 2>&1 >> /var/log/cron.log
+15 */6 * * *  cd /usr/src/app && /bin/bash /usr/src/app/extract_climbs.sh 2>&1 >> /var/log/cron.log
