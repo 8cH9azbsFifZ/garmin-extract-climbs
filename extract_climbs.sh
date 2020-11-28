@@ -7,6 +7,8 @@ for f in $gdata/*.fit; do
 	ff=${f/.fit/.txt}
 	echo "Converting $f to $ff" 
 	test -f $ff || $fitdump $f > $ff
+	gg=${f/.fit/.json}
+	test -f $gg || $fitdump -print_json=1 $f > $gg
 done
 
 export LC_NUMERIC="C"
